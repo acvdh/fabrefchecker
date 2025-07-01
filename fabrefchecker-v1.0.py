@@ -61,7 +61,7 @@ if uploaded_file is not None:
         references_text = text[match.end():].strip()
         reference_list = [ref.strip() for ref in references_text.split("\n") if ref.strip()]
     else:
-        st.warning("No 'References' section found.")
+        st.warning("No 'References' section found. Please ensure your document includes a heading or line with the word References to mark the start of the reference list")
         reference_list = []
 
     if reference_list:
@@ -94,7 +94,7 @@ if uploaded_file is not None:
                     correct_count += 1
                 else:
                     st.error("❌ Crossref title NOT found in citation from input document")
-                    st.warning("⚠ Reference might be incorrect or fabricated")
+                    st.warning("⚠ Reference might be incorrect or fabricated based on title mismatch")
                     incorrect_count += 1
                     incorrect_references.append(ref)
             else:
