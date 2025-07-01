@@ -3,7 +3,7 @@
 
 # In[ ]:
 
-#Written by A.C. van der Heijden, version 1.0
+# Written by Dr. A.C. van der Heijden, version 1.0
 # This script checks the references section of a DOCX document by verifying each citation’s title against Crossref metadata. 
 # It flags potentially incorrect or fabricated references when the Crossref title does not appear in the input citation text.
 
