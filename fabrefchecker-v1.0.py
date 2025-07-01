@@ -14,7 +14,7 @@ import requests
 from docx import Document
 from io import BytesIO
 
-st.title("st.title("Fabricated Reference Checker v1.0")
+st.title("Fabricated Reference Checker v1.0")
 
 # Upload DOCX file
 uploaded_file = st.file_uploader("Upload your DOCX file", type=["docx"])
