@@ -23,11 +23,12 @@ st.title("Fabricated Reference Checker v2.2")
 st.markdown("""
     ### How does it work?
     This tool checks the references in the uploaded DOCX document by:
-    1. Flattening dynamic Word fields using Mammoth  
-    2. Verifying the DOI for each reference  
-    3. Checking if the reference title matches the information in the Crossref Database (a public collection of scholarly publications).  
+
+    1. Verifying the DOI for each reference
+
+    2. Checking if the reference title matches the information in the Crossref Database (a public collection of scholarly publications).
     If the titles do not fully match, the reference will be flagged as potentially incorrect or fabricated. <br> <br>
-    **Important:** Please double-check flagged references manually. This tool is intended as a first check — not as a final evaluation.
+    **Important:** 1) Please double-check flagged references manually. This tool is intended as a first check — not as a final evaluation. 2) Please only upload the references (e.g. not entire theses) to comply with privacy regulations.
 """, unsafe_allow_html=True)
 
 # Upload DOCX file
