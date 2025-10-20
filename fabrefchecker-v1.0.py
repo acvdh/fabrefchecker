@@ -28,7 +28,8 @@ st.markdown("""
 
     2. Checking if the reference title matches the information in the Crossref Database (a public collection of scholarly publications).
     If the titles do not fully match, the reference will be flagged as potentially incorrect or fabricated. <br> <br>
-    **Important:** 1) Please double-check flagged references manually. This tool is intended as a first check — not as a final evaluation. 2) Please only upload the references (e.g. not entire theses) to comply with privacy regulations.
+    <div style="color:red; font-weight:bold">
+    **Important:** 1) Please double-check flagged references manually. This tool is intended as a first check — not as a final evaluation. 2) Please only upload the references (e.g. not entire theses) to comply with privacy regulations.</div>
 """, unsafe_allow_html=True)
 
 # Upload DOCX file
